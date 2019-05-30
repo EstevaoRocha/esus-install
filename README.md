@@ -8,7 +8,9 @@ Shellscript para instalação dos requisitos do sistema de prontuário eSUS-PEC 
 O Script habilita FTP,acesso via SSH, e configurações de firewall necessárias para o uso do sistema.
 Altera os arquivos solicitados no readme de instalação do esus.
 
-Efetuado o downloado do JDK, extraia na pasta /opt/ -> ex.: /opt/jdk1.7.0/
+Efetuado o download do JDK, extraia na pasta /opt/ -> ex.: /opt/jdk1.7.0/
 
 O script não executa as linhas de comando a partir da linha 42, a execução do instalador_linux.sh deve ser feita manualmente.
 As configurações de postgres a partir da linha 48 são opcionais.
+
+**Testado apenas no ubuntu 18.04 LTS
