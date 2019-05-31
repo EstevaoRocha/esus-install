@@ -37,6 +37,10 @@ echo "JAVA_HOME=/opt/jdk1.7.0/" >> /etc/java.conf
 chmod 755 /etc/java.conf
 sed -i 's/# pt_BR.UTF-8 UTF-8/  pt_BR.UTF-8 UTF-8/g' /etc/locale.gen
 locale-gen
+#Variáveis de Ambiente do JAVA
+export JAVA_HOME=/opt/jdk1.7.0
+export PATH=$PATH:/opt/jdk1.7.0/bin
+export MANPATH=$MANPATH:/opt/jdk1.7.0/man
 echo 'Instalação concluída, reiniciando o sistema...'
 reboot 
 #EXECUTAR APÓS O REBOOT
